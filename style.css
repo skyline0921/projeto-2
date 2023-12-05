@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(248, 235, 235);
+}
+
+.content{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#pessoas{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+
+#pessoas > div > img{
+    border-radius: 50%;
+    height: 50px;
+    margin: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#letras > h3{
+    color: white;
+}
+#letras > h4{
+    color: rgb(170, 165, 165);
+}
+
+.daniel{
+    background-color: hsl(263, 55%, 52%);
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+}
+
+.daniel > p > strong{
+    color: white;
+    font-size: large;
+}
+
+.daniel > p{
+    color: rgb(170, 165, 165);
+}
+
+#aspas{
+    position: absolute;
+    height: 100px;
+    right: 100px;
+}
+
+#aspas > img{
+    width: 100px;
+    height: 100%;
+    z-index: -4;
+    position: relative;
+}
+
+.jonattan > p > strong{
+    color: white;
+}
+
+.jonattan > p{
+    color: rgb(170, 165, 165);
+    font-size:large;
+}
+
+.jonattan{
+  background-color:hsl(217, 19%, 35%);
+  width: 300px;
+  height: 300px;
+}
+
+.kira{
+    background-color:hsl(0, 0%, 100%);
+    width: 300px;
+    height: 300px;
+}
+
+.janette{
+    background-color:hsl(0, 0%, 100%);
+    width: 250px;
+    height: 300px;
+}
+
+.janette > p > strong{
+    font-size: x-large;
+}
+
+.patrick{
+    background-color:hsl(219, 29%, 14%);
+    width: 550px;
+    height: 300px;
+}
+
+.patrick > p > strong{
+    color: white;
+    font-size: large;
+}
+
+.patrick > p{
+    color: rgb(170, 165, 165);
+}
+
+@media screen and (max-width: 500px){
+    .daniel{
+        padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: 10px;
+    height: 450px;
+    }
+
+    .janette{
+        padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: 10px;
+    }
+
+    .jonattan{
+        padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: 10px;
+    height: 250px;
+    }
+
+    .kira{
+        padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: 10px;
+    }
+
+    .patrick{
+        padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin: 10px;
+    }
+}
